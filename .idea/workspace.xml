@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc0f075-ab55-4c3e-b972-b8b6b574495e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exceptions/MiError.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,20 +21,36 @@
       <file leaf-file-name="EjPrimerRepo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EjPrimerRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="396">
               <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Uni2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Uni2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arrays/Uni2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1068">
-              <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="1152">
+              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2420#2421#0" expanded="true" />
+                <element signature="e#2475#2476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiError.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Exceptions/MiError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/Recursion/Factorial.java" />
         <option value="$PROJECT_DIR$/src/Arrays/Curso.java" />
         <option value="$PROJECT_DIR$/src/Arrays/Uni2.java" />
+        <option value="$PROJECT_DIR$/src/Exceptions/MiError.java" />
       </list>
     </option>
   </component>
@@ -93,6 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -106,25 +126,10 @@
               <item name="JavaUTN_LabII" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DivisionConResta.java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaUTN_LabII" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DivisionConResta.java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaUTN_LabII" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-              <item name="Uni2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -152,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.MiError">
     <configuration name="DivisionConResta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -186,14 +191,14 @@
       <module name="JavaUTN_LabII" />
       <envs />
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+    <configuration name="MiError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions.MiError" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -330,19 +335,19 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Factorial" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DivisionConResta" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SumRecursiva$SumatoriaRecursiva" />
-      <item index="3" class="java.lang.String" itemvalue="Application.EjPrimerRepo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Principal" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DivisionConResta" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SumRecursiva$SumatoriaRecursiva" />
+      <item index="2" class="java.lang.String" itemvalue="Application.EjPrimerRepo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Principal" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MiError" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Principal" />
-        <item index="1" class="java.lang.String" itemvalue="Application.EjPrimerRepo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SumRecursiva$SumatoriaRecursiva" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DivisionConResta" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Factorial" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MiError" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Principal" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EjPrimerRepo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SumRecursiva$SumatoriaRecursiva" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DivisionConResta" />
       </list>
     </recent_temporary>
   </component>
@@ -365,10 +370,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -379,7 +384,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26349613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2667095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -390,7 +395,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -423,6 +427,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/EjPrimerRepo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/Uni2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EjPrimerRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
@@ -435,6 +459,8 @@
           <caret line="91" column="21" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -492,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EjPrimerRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="396">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding />
         </state>
@@ -508,10 +534,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays/Uni2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1068">
-          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="1152">
+          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exceptions/MiError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
           </folding>
         </state>
       </provider>
