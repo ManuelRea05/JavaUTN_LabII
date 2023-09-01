@@ -14,7 +14,7 @@ public class Main {
             int opcion = scanner.nextInt();
             scanner.nextLine();
 
-            //Aca hago un switch anidado dentro de un try para elegir el tipo de empleado.
+            //Switch para cargar los datos
             switch (opcion) {
                 case 1:
                     System.out.print("Nombre: ");
@@ -29,6 +29,7 @@ public class Main {
 
                     Empleado empleado;
 
+                    // Un switch dentro de un try para elegir el tipo de empleado
                     try {
                         switch (tipoEmpleado) {
                             case 1:

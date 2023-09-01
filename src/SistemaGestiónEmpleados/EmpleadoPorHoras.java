@@ -9,6 +9,7 @@ class EmpleadoPorHoras extends Empleado implements Impuesto{
         this.horasTrabajadas = horasTrabajadas;
     }
 
+    // Implementando metodos abstractos
     @Override
     double calcularSueldo() {
         // Calcula el sueldo por horas trabajadas

@@ -24,6 +24,7 @@ public abstract class Empleado {
                 '}';
     }
 
+    //Metodo abstracto
     abstract double calcularSueldo();
 }
 

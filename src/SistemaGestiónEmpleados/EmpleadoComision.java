@@ -7,6 +7,7 @@ class EmpleadoComision extends Empleado implements Impuesto{
         this.ventasRealizadas = ventasRealizadas;
     }
 
+    // Implementando metodos abstractos
     @Override
     double calcularSueldo() {
         // Calcula el sueldo por ventas realizadas (suponemos una comisión del 20%)

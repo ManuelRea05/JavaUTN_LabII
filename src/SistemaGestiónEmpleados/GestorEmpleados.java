@@ -9,6 +9,7 @@ public class GestorEmpleados {
         listaEmpleados.add(empleado);
     }
 
+    // Metodos para eliminar y modificar con el id
     public void modificarEmpleado(int id, Empleado nuevoEmpleado) {
         for (int i = 0; i < listaEmpleados.size(); i++) {
             if (listaEmpleados.get(i).id == id) {

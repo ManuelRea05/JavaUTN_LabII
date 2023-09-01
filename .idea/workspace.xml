@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc0f075-ab55-4c3e-b972-b8b6b574495e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoAsalariado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoComision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoPorHoras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/GestorEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Impuesto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoAsalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoAsalariado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoComision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoComision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoPorHoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoPorHoras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/GestorEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/GestorEmpleados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,6 +5,7 @@ class EmpleadoAsalariado extends Empleado implements Impuesto{
         super(nombre, id, sueldoBase);
     }
 
+    // Implementando metodos abstractos
     @Override
     double calcularSueldo() {
         return sueldoBase;
