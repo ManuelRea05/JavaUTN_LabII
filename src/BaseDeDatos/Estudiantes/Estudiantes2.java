@@ -6,14 +6,14 @@ import java.util.Scanner;
 public class Estudiantes2 {
     public static void main(String[] args) {
         // Datos de conexi�n a la base de datos (ajusta estos valores seg�n tu configuraci�n)
-        String url = "jdbc:mysql://localhost:3306/universidad";
+        String url = "jdbc:mysql://localhost:33061/estudiantes";
         String usuario = "root";
         String pass = "";
 
         Scanner scanner = new Scanner(System.in);
 
         try {
-            // Establecer la conexi�n a la base de datos
+            // Establecer la conexión a la base de datos
             Connection conexion = DriverManager.getConnection(url, usuario, pass);
 
             while (true) {
