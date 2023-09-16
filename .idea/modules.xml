@@ -5,4 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/JavaUTN_LabII.iml" filepath="$PROJECT_DIR$/JavaUTN_LabII.iml" />
     </modules>
   </component>
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.1.0</version> <!-- Utiliza la versión que corresponda -->
+  </dependency>
 </project>
