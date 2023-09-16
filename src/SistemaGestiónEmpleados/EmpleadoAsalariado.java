@@ -7,6 +7,10 @@ class EmpleadoAsalariado extends Empleado implements Impuesto{
 
     // Implementando metodos abstractos
     @Override
+    public String toString() {
+        return super.toString() + " Sueldo neto=" + calcularSueldo() + "}";
+    }
+    @Override
     double calcularSueldo() {
         return sueldoBase;
     }

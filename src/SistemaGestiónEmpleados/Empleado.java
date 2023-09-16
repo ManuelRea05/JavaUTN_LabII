@@ -20,8 +20,7 @@ public abstract class Empleado {
         return "Empleado{" +
                 "nombre='" + nombre + '\'' +
                 ", id=" + id +
-                ", sueldoBase=" + sueldoBase +
-                '}';
+                ", sueldoBase=" + sueldoBase+ ",";
     }
 
     //Metodo abstracto

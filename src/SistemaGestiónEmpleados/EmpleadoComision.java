@@ -9,6 +9,10 @@ class EmpleadoComision extends Empleado implements Impuesto{
 
     // Implementando metodos abstractos
     @Override
+    public String toString() {
+        return super.toString() + " Sueldo neto=" + calcularSueldo() + "}";
+    }
+    @Override
     double calcularSueldo() {
         // Calcula el sueldo por ventas realizadas (suponemos una comisión del 20%)
         return sueldoBase * (0.2 * ventasRealizadas);
