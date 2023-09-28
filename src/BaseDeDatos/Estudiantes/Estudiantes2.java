@@ -2,11 +2,11 @@ package BaseDeDatos.Estudiantes;
 
 import java.sql.*;
 import java.util.Scanner;
-
 public class Estudiantes2 {
     public static void main(String[] args) {
+
         // Datos de conexi�n a la base de datos (ajusta estos valores seg�n tu configuraci�n)
-        String url = "jdbc:mysql://localhost:33061/estudiantes";
+        String url = "jdbc:mysql://localhost:3306/Universidad";
         String usuario = "root";
         String pass = "";
 
@@ -17,16 +17,17 @@ public class Estudiantes2 {
             Connection conexion = DriverManager.getConnection(url, usuario, pass);
 
             while (true) {
-                System.out.println("Men�:");
+                System.out.println("Menú:");
                 System.out.println("1. Mostrar estudiantes");
                 System.out.println("2. Agregar estudiante");
                 System.out.println("3. Editar estudiante");
                 System.out.println("4. Eliminar estudiante");
-                System.out.println("5. Salir");
-                System.out.print("Selecciona una opci�n: ");
+                System.out.println("5. Mostrar mayores de una determinada edad");
+                System.out.println("6. Salir");
+                System.out.print("Selecciona una opción: ");
 
                 int opcion = scanner.nextInt();
-                scanner.nextLine(); // Consumir la nueva l�nea
+                scanner.nextLine(); // Consumir la nueva línea
 
                 switch (opcion) {
                     case 1:
@@ -42,12 +43,18 @@ public class Estudiantes2 {
                         eliminarEstudiante(conexion, scanner);
                         break;
                     case 5:
-                        // Cerrar la conexi�n y salir del programa
+                        int edadMin = 0;
+                        System.out.println("Ingrese la edad mínima que quiere mostrar: ");
+                        edadMin = scanner.nextInt();
+                        mostrarMayores(conexion, edadMin);
+                        break;
+                    case 6:
+                        // Cerrar la conexion y salir del programa
                         conexion.close();
                         scanner.close();
                         System.exit(0);
                     default:
-                        System.out.println("Opci�n no v�lida. Por favor, elige una opci�n v�lida.");
+                        System.out.println("Opción no válida. Por favor, elige una opción válida.");
                         break;
                 }
             }
@@ -56,10 +63,10 @@ public class Estudiantes2 {
         }
     }
 
-    // Funci�n para mostrar estudiantes
-    // Esta funci�n muestra todos los estudiantes almacenados en la base de datos.
+    // Función para mostrar estudiantes
+    // Esta función muestra todos los estudiantes almacenados en la base de datos.
     private static void mostrarEstudiantes(Connection conexion) throws SQLException {
-        // Crea una declaraci�n SQL para ejecutar una consulta de selecci�n.
+        // Crea una declaración SQL para ejecutar una consulta de selecci�n.
         Statement statement = conexion.createStatement();
 
         // Define la consulta SQL para obtener todos los estudiantes.
@@ -69,9 +76,9 @@ public class Estudiantes2 {
         ResultSet resultado = statement.executeQuery(consulta);
 
         // Imprime una cabecera de columnas para los datos de los estudiantes.
-        System.out.println("ID\tNombre\tApellido\tLegajo\tDNI\tFecha de nacimiento\tDirecci�n\tTel�fono\tEmail");
+        System.out.println("ID\tNombre\tApellido\tLegajo\tDNI\tFecha de nacimiento\tDirección\tTeléfono\tEmail");
 
-        // Itera a trav�s de los resultados y muestra los datos de cada estudiante en forma de tabla.
+        // Itera a través de los resultados y muestra los datos de cada estudiante en forma de tabla.
         while (resultado.next()) {
             int id = resultado.getInt("id");
             String nombre = resultado.getString("nombre");
@@ -108,9 +115,9 @@ public class Estudiantes2 {
         String dni = scanner.nextLine();
         System.out.print("Fecha de nacimiento (YYYY-MM-DD): ");
         String fechaNacimiento = scanner.nextLine();
-        System.out.print("Direcci�n: ");
+        System.out.print("Dirección: ");
         String direccion = scanner.nextLine();
-        System.out.print("Tel�fono: ");
+        System.out.print("Teléfono: ");
         String telefono = scanner.nextLine();
         System.out.print("Email: ");
         String email = scanner.nextLine();
@@ -178,9 +185,9 @@ public class Estudiantes2 {
         String nuevoDNI = scanner.nextLine();
         System.out.print("Nueva fecha de nacimiento (YYYY-MM-DD): ");
         String nuevaFechaNacimiento = scanner.nextLine();
-        System.out.print("Nueva direcci�n: ");
+        System.out.print("Nueva dirección: ");
         String nuevaDireccion = scanner.nextLine();
-        System.out.print("Nuevo tel�fono: ");
+        System.out.print("Nuevo teléfono: ");
         String nuevoTelefono = scanner.nextLine();
         System.out.print("Nuevo email: ");
         String nuevoEmail = scanner.nextLine();
@@ -253,6 +260,42 @@ public class Estudiantes2 {
         }
 
         // Cierra el PreparedStatement para liberar recursos.
+        preparedStatement.close();
+    }
+    // Función para mostrar estudiantes mayores de una edad específica
+    private static void mostrarMayores(Connection conexion, int edadMin) throws SQLException {
+        // Consulta SQL para obtener los estudiantes mayores de la edad mínima especificada.
+        String consulta = "SELECT * FROM estudiantes WHERE YEAR(CURDATE()) - YEAR(fecha_nacimiento) > ?";
+
+        // Crea una declaración SQL para ejecutar la consulta.
+        PreparedStatement preparedStatement = conexion.prepareStatement(consulta);
+        preparedStatement.setInt(1, edadMin); // Establece el valor del parámetro.
+
+        // Ejecuta la consulta SQL y almacena los resultados en un ResultSet.
+        ResultSet resultado = preparedStatement.executeQuery();
+
+        // Imprime una cabecera de columnas para los datos de los estudiantes.
+        System.out.println("ID\tNombre\tApellido\tLegajo\tDNI\tFecha de nacimiento\tDirección\tTeléfono\tEmail");
+
+        // Itera a través de los resultados y muestra los datos de cada estudiante en forma de tabla.
+        while (resultado.next()) {
+            int id = resultado.getInt("id");
+            String nombre = resultado.getString("nombre");
+            String apellido = resultado.getString("apellido");
+            String legajo = resultado.getString("legajo");
+            String dni = resultado.getString("dni");
+            String fechaNacimiento = resultado.getString("fecha_nacimiento");
+            String direccion = resultado.getString("direccion");
+            String telefono = resultado.getString("telefono");
+            String email = resultado.getString("email");
+
+            // Imprime los datos del estudiante con tabulaciones para formatear como una tabla.
+            System.out.println(id + "\t" + nombre + "\t" + apellido + "\t" + legajo + "\t" + dni + "\t" +
+                    fechaNacimiento + "\t" + direccion + "\t" + telefono + "\t" + email);
+        }
+
+        // Cierra el ResultSet y la declaración para liberar recursos.
+        resultado.close();
         preparedStatement.close();
     }
 
