@@ -1,4 +1,4 @@
-package SistemaGestiónEmpleados;
+package SistemaGestionEmpleados;
 
 public interface Impuesto {
 

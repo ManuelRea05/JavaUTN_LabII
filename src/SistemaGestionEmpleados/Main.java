@@ -1,5 +1,4 @@
-package SistemaGestiónEmpleados;
-import java.util.ArrayList;
+package SistemaGestionEmpleados;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

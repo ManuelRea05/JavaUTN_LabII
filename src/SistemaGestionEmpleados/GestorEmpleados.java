@@ -1,4 +1,4 @@
-package SistemaGestiónEmpleados;
+package SistemaGestionEmpleados;
 import java.util.ArrayList;
 
 public class GestorEmpleados {

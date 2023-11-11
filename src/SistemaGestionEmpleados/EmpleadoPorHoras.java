@@ -1,4 +1,4 @@
-package SistemaGestiónEmpleados;
+package SistemaGestionEmpleados;
 
 class EmpleadoPorHoras extends Empleado implements Impuesto{
 

@@ -1,4 +1,4 @@
-package SistemaGestiónEmpleados;
+package SistemaGestionEmpleados;
 
 public abstract class Empleado {
     protected String nombre;

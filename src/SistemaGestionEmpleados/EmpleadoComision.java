@@ -1,4 +1,4 @@
-package SistemaGestiónEmpleados;
+package SistemaGestionEmpleados;
 
 class EmpleadoComision extends Empleado implements Impuesto{
     protected double ventasRealizadas;

@@ -1,4 +1,4 @@
-package SistemaGestiónEmpleados;
+package SistemaGestionEmpleados;
 
 class EmpleadoAsalariado extends Empleado implements Impuesto{
     public EmpleadoAsalariado(String nombre, int id, double sueldoBase) {
