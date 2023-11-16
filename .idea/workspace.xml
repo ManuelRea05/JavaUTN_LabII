@@ -5,33 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc0f075-ab55-4c3e-b972-b8b6b574495e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Arrays/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Arrays/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/BaseDeDatos/Estudiantes/Estudiantes2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/BaseDeDatos/Estudiantes/Estudiantes2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Concesionaria/Concesionaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Concesionaria/Concesionaria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Concesionaria/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Concesionaria/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/EjPrimerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/EjPrimerRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Exceptions/MiError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Exceptions/MiError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/ModeloParcial/Habitacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/ModeloParcial/Habitacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/ModeloParcial/Hoteleria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/ModeloParcial/Hoteleria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Recursion/SumRecursiva$SumatoriaRecursiva.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Recursion/SumRecursiva$SumatoriaRecursiva.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/Empleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/EmpleadoAsalariado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/EmpleadoComision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/EmpleadoPorHoras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/GestorEmpleados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/Impuesto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/SistemaGestiónEmpleados/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Mod2doParcial/DBHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Mod2doParcial/DBHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Mod2doParcial/Hospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Mod2doParcial/Hospital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Mod2doParcial/HospitalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUTN_LabII/Mod2doParcial/HospitalMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mod2doParcial/HospitalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod2doParcial/HospitalMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoAsalariado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/EmpleadoAsalariado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoComision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/EmpleadoComision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/EmpleadoPorHoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/EmpleadoPorHoras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/GestorEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/GestorEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Impuesto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/Impuesto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SistemaGestiónEmpleados/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SistemaGestionEmpleados/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +130,7 @@
       <recent name="C:\Users\Usuario\Desktop\lab\JavaUTN_LabII\src\BaseDeDatos\Estudiantes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HospitalMain">
+  <component name="RunManager" selected="Application.HospitalMain (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -160,21 +138,7 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Estudiantes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BaseDeDatos.Estudiantes.Estudiantes2" />
-      <module name="JavaUTN_LabII" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaseDeDatos.Estudiantes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HospitalMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HospitalMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mod2doParcial.HospitalMain" />
       <module name="JavaUTN_LabII" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -188,7 +152,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HospitalMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HospitalMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mod2doParcial.HospitalMain" />
+      <module name="JavaUTN_LabII" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mod2doParcial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mod2doParcial.HospitalMain" />
+      <module name="JavaUTN_LabII" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mod2doParcial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalMain (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mod2doParcial.HospitalMain" />
       <module name="JavaUTN_LabII" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -209,20 +201,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Mod2doParcial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParcialProfe.SistemaHospital" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ParcialProfe.SistemaHospital" />
-      <module name="JavaUTN_LabII" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ParcialProfe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +242,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HospitalMain (4)" />
+      <item itemvalue="Application.HospitalMain (5)" />
+      <item itemvalue="Application.HospitalMain (3)" />
       <item itemvalue="Application.HospitalMain" />
-      <item itemvalue="Application.HospitalMain (1)" />
       <item itemvalue="Application.HospitalMain (2)" />
-      <item itemvalue="Application.Estudiantes2" />
-      <item itemvalue="Application.ParcialProfe.SistemaHospital" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HospitalMain (3)" />
+        <item itemvalue="Application.HospitalMain (4)" />
+        <item itemvalue="Application.HospitalMain (5)" />
         <item itemvalue="Application.HospitalMain" />
         <item itemvalue="Application.HospitalMain (2)" />
-        <item itemvalue="Application.HospitalMain (1)" />
-        <item itemvalue="Application.Estudiantes2" />
-        <item itemvalue="Application.ParcialProfe.SistemaHospital" />
       </list>
     </recent_temporary>
   </component>
